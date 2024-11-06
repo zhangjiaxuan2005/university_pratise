@@ -82,7 +82,7 @@ build test.exe: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/main.cpp.o
 
 build cmake_object_order_depends_target_test1: phony || .
 
-build CMakeFiles/test1.dir/test1.cpp.obj: CXX_COMPILER__test1_unscanned_Debug E$:/projects/cpp/test/cmake-build-debug/test1.cpp || cmake_object_order_depends_target_test1
+build CMakeFiles/test1.dir/test1.cpp.obj: CXX_COMPILER__test1_unscanned_Debug E$:/projects/cpp/test/test1.cpp || cmake_object_order_depends_target_test1
   DEP_FILE = CMakeFiles\test1.dir\test1.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\test1.dir
