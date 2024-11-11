@@ -1,0 +1,12 @@
+docs_NICU2023/
+
+src/applications/sample/OpenBrother/pzstudio
+src/applications/sample/OpenBrother/TestFwk
+
+src/out/
+src/ohos_config.json
+src/device/hisilicon/hispark_pegasus/sdk_liteos
+
+src/third_party/paho_mqtt
+src/third_party/paho_mqtt_xlw
+src/third_party/paho_mqtt_tmp

@@ -1,0 +1,9 @@
+static_library("hello_world"){
+    sourses=[
+        "hello_world.c"
+    ]
+    include_dirs=[
+        "//base/iot_hardware/peripheral/interfaces/kits",
+    
+    ]
+}

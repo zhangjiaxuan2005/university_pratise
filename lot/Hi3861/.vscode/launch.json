@@ -1,0 +1,34 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        // Deveco auto-generated start
+        {
+            "type": "deveco-device-tool-debug",
+            "request": "launch",
+            "DevEcoDebugInitPath": "${workspaceRoot}/.deveco/.debug-cache/hi3861",
+            "servertype": "jlink",
+            "name": "hi3861: DevEco GDB Launch",
+            "executable": "E:/projects/lot/Hi3861/src/out/hispark_pegasus/wifiiot_hispark_pegasus/target.elf",
+            "toolchainBinDir": "",
+            "projectEnvName": "hi3861",
+            "coreDir": "D:/Program Files/Huawei/DevEco-Device-Tool/core",
+            "preLaunchTask": "deveco: run debug server - hi3861",
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "type": "deveco-device-tool-debug",
+            "request": "attach",
+            "DevEcoDebugInitPath": "${workspaceRoot}/.deveco/.debug-cache/hi3861",
+            "servertype": "jlink",
+            "name": "hi3861: DevEco GDB Attach",
+            "executable": "E:/projects/lot/Hi3861/src/out/hispark_pegasus/wifiiot_hispark_pegasus/target.elf",
+            "toolchainBinDir": "",
+            "projectEnvName": "hi3861",
+            "coreDir": "D:/Program Files/Huawei/DevEco-Device-Tool/core",
+            "preLaunchTask": "deveco: run debug server - hi3861",
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+        // Deveco auto-generated end
+
+    ]
+}
