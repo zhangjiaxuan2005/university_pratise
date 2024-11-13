@@ -73,39 +73,6 @@ build test.exe: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/main.cpp.o
   TARGET_IMPLIB = libtest.dll.a
   TARGET_PDB = test.exe.dbg
 
-# =============================================================================
-# Object build statements for EXECUTABLE target test1
-
-
-#############################################
-# Order-only phony target for test1
-
-build cmake_object_order_depends_target_test1: phony || .
-
-build CMakeFiles/test1.dir/test1.cpp.obj: CXX_COMPILER__test1_unscanned_Debug E$:/projects/cpp/test/test1.cpp || cmake_object_order_depends_target_test1
-  DEP_FILE = CMakeFiles\test1.dir\test1.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\test1.dir
-  OBJECT_FILE_DIR = CMakeFiles\test1.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target test1
-
-
-#############################################
-# Link the executable test1.exe
-
-build test1.exe: CXX_EXECUTABLE_LINKER__test1_Debug CMakeFiles/test1.dir/test1.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\test1.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = test1.exe
-  TARGET_IMPLIB = libtest1.dll.a
-  TARGET_PDB = test1.exe.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -134,8 +101,6 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build test: phony test.exe
 
-build test1: phony test1.exe
-
 # =============================================================================
 # Folder targets.
 
@@ -144,7 +109,7 @@ build test1: phony test1.exe
 #############################################
 # Folder: E:/projects/cpp/test/cmake-build-debug
 
-build all: phony test.exe test1.exe
+build all: phony test.exe
 
 # =============================================================================
 # Built-in targets
