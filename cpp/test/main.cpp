@@ -1,9 +1,8 @@
 #include <iostream>
 using namespace std;
-const int N=109;
-int a[N];
 int main() {
     int n;cin>>n;
+    int a[n];
     for(int i=0;i<=n;++i){
         cin>>a[n];
     }
