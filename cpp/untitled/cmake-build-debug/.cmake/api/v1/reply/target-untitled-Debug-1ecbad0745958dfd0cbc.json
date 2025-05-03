@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "cpp.exe"
+			"path" : "untitled.exe"
 		},
 		{
-			"path" : "cpp.pdb"
+			"path" : "untitled.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "cpp::@6890427a1f51a3e7e1df",
+	"id" : "untitled::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "cpp",
-	"nameOnDisk" : "cpp.exe",
+	"name" : "untitled",
+	"nameOnDisk" : "untitled.exe",
 	"paths" : 
 	{
 		"build" : ".",

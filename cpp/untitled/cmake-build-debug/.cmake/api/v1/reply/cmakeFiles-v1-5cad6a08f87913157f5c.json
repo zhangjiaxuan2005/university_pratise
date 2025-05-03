@@ -817,8 +817,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "E:/projects/cpp/cmake-build-debug",
-		"source" : "E:/projects/cpp"
+		"build" : "E:/projects/cpp/untitled/cmake-build-debug",
+		"source" : "E:/projects/cpp/untitled"
 	},
 	"version" : 
 	{

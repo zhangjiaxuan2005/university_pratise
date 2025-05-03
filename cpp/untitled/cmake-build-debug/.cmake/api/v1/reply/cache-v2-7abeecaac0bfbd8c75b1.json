@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "e:/projects/cpp/cmake-build-debug"
+			"value" : "e:/projects/cpp/untitled/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/projects/cpp/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "E:/projects/cpp/untitled/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "E:/projects/cpp"
+			"value" : "E:/projects/cpp/untitled"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/cpp"
+			"value" : "C:/Program Files (x86)/untitled"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -875,7 +875,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "cpp"
+			"value" : "untitled"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1282,7 +1282,7 @@
 			"value" : "TRUE"
 		},
 		{
-			"name" : "cpp_BINARY_DIR",
+			"name" : "untitled_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1291,10 +1291,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/projects/cpp/cmake-build-debug"
+			"value" : "E:/projects/cpp/untitled/cmake-build-debug"
 		},
 		{
-			"name" : "cpp_IS_TOP_LEVEL",
+			"name" : "untitled_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1306,7 +1306,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "cpp_SOURCE_DIR",
+			"name" : "untitled_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1315,7 +1315,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/projects/cpp"
+			"value" : "E:/projects/cpp/untitled"
 		}
 	],
 	"kind" : "cache",
