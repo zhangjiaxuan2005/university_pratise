@@ -3,11 +3,10 @@
 //
 
 #include<stdio.h>
-//C语言输出的标准库
+
 int main()
-//程序入口
 {
-    printf("hello world");
-    //printf
+    printf("hello world\n");
+    printf("%d",10);
     return 0;
 }
