@@ -4,9 +4,10 @@
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
     printf("hello world\n");
-    printf("%d",10);
+    printf("%d", 10);
+    printf("%f", 20.0);
+    printf("%c", 'a');
     return 0;
 }

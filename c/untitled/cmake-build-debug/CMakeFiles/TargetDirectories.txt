@@ -1,4 +1,5 @@
-E:/projects/c/untitled/cmake-build-debug/CMakeFiles/HelloWorld.dir
+E:/projects/c/untitled/cmake-build-debug/CMakeFiles/Printf.dir
 E:/projects/c/untitled/cmake-build-debug/CMakeFiles/DataType.dir
+E:/projects/c/untitled/cmake-build-debug/CMakeFiles/DataBase.dir
 E:/projects/c/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/projects/c/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir

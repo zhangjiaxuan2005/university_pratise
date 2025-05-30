@@ -4,6 +4,6 @@ project(untitled C)
 set(CMAKE_C_STANDARD 11)
 
 
-
-add_executable(HelloWorld lesson_one/HelloWorld.c)
-add_executable(DataType lesson_one/DataType.c)
+add_executable(Printf Day_one/Printf.c)
+add_executable(DataType Day_one/DataType.c)
+add_executable(DataBase Day_one/DataBase.c)
