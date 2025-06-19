@@ -73,6 +73,39 @@ build Hello_world.exe: CXX_EXECUTABLE_LINKER__Hello_world_Debug CMakeFiles/Hello
   TARGET_IMPLIB = libHello_world.dll.a
   TARGET_PDB = Hello_world.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target constant
+
+
+#############################################
+# Order-only phony target for constant
+
+build cmake_object_order_depends_target_constant: phony || .
+
+build CMakeFiles/constant.dir/Day_one/constant.cpp.obj: CXX_COMPILER__constant_unscanned_Debug E$:/projects/cpp/untitled/Day_one/constant.cpp || cmake_object_order_depends_target_constant
+  DEP_FILE = CMakeFiles\constant.dir\Day_one\constant.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\constant.dir
+  OBJECT_FILE_DIR = CMakeFiles\constant.dir\Day_one
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target constant
+
+
+#############################################
+# Link the executable constant.exe
+
+build constant.exe: CXX_EXECUTABLE_LINKER__constant_Debug CMakeFiles/constant.dir/Day_one/constant.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\constant.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = constant.exe
+  TARGET_IMPLIB = libconstant.dll.a
+  TARGET_PDB = constant.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -101,6 +134,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build Hello_world: phony Hello_world.exe
 
+build constant: phony constant.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -109,7 +144,7 @@ build Hello_world: phony Hello_world.exe
 #############################################
 # Folder: E:/projects/cpp/untitled/cmake-build-debug
 
-build all: phony Hello_world.exe
+build all: phony Hello_world.exe constant.exe
 
 # =============================================================================
 # Built-in targets
