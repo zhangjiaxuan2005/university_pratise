@@ -1,0 +1,18 @@
+# ninja log v6
+25	129	7702769337514978	CMakeFiles/DataType.dir/Day_one/DataType.c.obj	7cde55f36be269a7
+131	260	7681432781099341	untitled.exe	63d18b31175de277
+130	248	7702769338562926	DataType.exe	b02205544e4c1170
+69	185	7702147721466895	helloworld.exe	2a1a1b26ca6e102e
+143	297	7702790187183853	Scanf.exe	18e41207b15a7d48
+722	1620	7719995051719974	Operator_three.exe	e9e9748ff8076015
+85	153	7702160565574241	HelloWorld.exe	1ceded14132dcb4b
+973	1904	7702760096002303	DataBase.exe	947e76b63de29fdb
+22	143	7702790185976562	CMakeFiles/Scanf.dir/Day_two/Scanf.c.obj	cf6d3084245db526
+104	179	7720012018829278	controller_three.exe	b6fdb5783a76c763
+205	360	7702801283833779	Operators.exe	ce0cbb8d797f4b63
+10	848	7720358886216204	build.ninja	abcc6379eed19e76
+449	882	7716611718320206	Operator_one.exe	89d83f0d6aaa296
+30	92	7716621430775354	CMakeFiles/Operators_two.dir/Day_two/Operators_two.c.obj	e7f852aaad0dadf9
+93	163	7716621431401390	Operators_two.exe	adc1659b5fd47de4
+24	721	7719995044745480	CMakeFiles/Operator_three.dir/Day_three/Operator_three.c.obj	33d0cb5a3d919614
+38	104	7720012018173584	CMakeFiles/controller_three.dir/Day_four/controller_three.c.obj	3bec0d19490844d8

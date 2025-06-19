@@ -1,0 +1,19 @@
+# ninja log v6
+17	458	7720358536634233	build.ninja	8636d532e18518c4
+5	679	7720204863016555	CMakeFiles/constant.dir/Day_one/constant.cpp.obj	ce7b39f7386b6815
+369	440	7720355121263929	controller_five.exe	369e330b92d5a6ed
+680	808	7720204869756707	constant.exe	6bf56403572aa845
+50	698	7720204959971909	CMakeFiles/Hello_world.dir/Day_one/Hello_world.cpp.obj	d4640fa998860747
+699	825	7720204966463536	Hello_world.exe	db443f8df295199
+19	651	7720211558649700	CMakeFiles/data_model.dir/Day_two/data_model.cpp.obj	149d14ef7aaf840b
+673	818	7720211648354210	cin.exe	1c9a1e2925610a9e
+652	763	7720211564968135	data_model.exe	29ee14c6c83ade2c
+19	672	7720211641819754	CMakeFiles/cin.dir/Day_two/cin.cpp.obj	b79feffa90898aeb
+678	800	7720216092536096	operator_one.exe	337f446ca6ba41f1
+20	580	7720220036241504	CMakeFiles/operator.dir/Day_two/operator.cpp.obj	8235663ce230185e
+15	365	7720348613411949	CMakeFiles/controller_four.dir/Day_three/controller_four.cpp.obj	8d65e94bdac64794
+580	703	7720220041845007	operator.exe	b72d7b831ee6d79e
+723	847	7720343234991314	controller_three.exe	27d2558ea13ea469
+5	722	7720343227809302	CMakeFiles/controller_three.dir/Day_three/controller_three.cpp.obj	5dec437513a2ab1e
+365	443	7720348616907837	controller_four.exe	10acc19c7b448a8c
+21	369	7720355117775842	CMakeFiles/controller_five.dir/Day_three/controller_five.cpp.obj	f166cade7cd0c2af
