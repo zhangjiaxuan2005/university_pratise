@@ -304,6 +304,39 @@ build controller_three.exe: CXX_EXECUTABLE_LINKER__controller_three_Debug CMakeF
   TARGET_IMPLIB = libcontroller_three.dll.a
   TARGET_PDB = controller_three.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target controller_four
+
+
+#############################################
+# Order-only phony target for controller_four
+
+build cmake_object_order_depends_target_controller_four: phony || .
+
+build CMakeFiles/controller_four.dir/Day_three/controller_four.cpp.obj: CXX_COMPILER__controller_four_unscanned_Debug E$:/projects/cpp/untitled/Day_three/controller_four.cpp || cmake_object_order_depends_target_controller_four
+  DEP_FILE = CMakeFiles\controller_four.dir\Day_three\controller_four.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\controller_four.dir
+  OBJECT_FILE_DIR = CMakeFiles\controller_four.dir\Day_three
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target controller_four
+
+
+#############################################
+# Link the executable controller_four.exe
+
+build controller_four.exe: CXX_EXECUTABLE_LINKER__controller_four_Debug CMakeFiles/controller_four.dir/Day_three/controller_four.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\controller_four.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = controller_four.exe
+  TARGET_IMPLIB = libcontroller_four.dll.a
+  TARGET_PDB = controller_four.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -336,6 +369,8 @@ build cin: phony cin.exe
 
 build constant: phony constant.exe
 
+build controller_four: phony controller_four.exe
+
 build controller_one: phony controller_one.exe
 
 build controller_three: phony controller_three.exe
@@ -354,7 +389,7 @@ build operator: phony operator.exe
 #############################################
 # Folder: E:/projects/cpp/untitled/cmake-build-debug
 
-build all: phony Hello_world.exe constant.exe data_model.exe cin.exe operator.exe controller_one.exe controller_two.exe controller_three.exe
+build all: phony Hello_world.exe constant.exe data_model.exe cin.exe operator.exe controller_one.exe controller_two.exe controller_three.exe controller_four.exe
 
 # =============================================================================
 # Built-in targets

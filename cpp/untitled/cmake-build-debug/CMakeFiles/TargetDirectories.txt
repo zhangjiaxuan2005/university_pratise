@@ -6,5 +6,6 @@ E:/projects/cpp/untitled/cmake-build-debug/CMakeFiles/operator.dir
 E:/projects/cpp/untitled/cmake-build-debug/CMakeFiles/controller_one.dir
 E:/projects/cpp/untitled/cmake-build-debug/CMakeFiles/controller_two.dir
 E:/projects/cpp/untitled/cmake-build-debug/CMakeFiles/controller_three.dir
+E:/projects/cpp/untitled/cmake-build-debug/CMakeFiles/controller_four.dir
 E:/projects/cpp/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/projects/cpp/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
