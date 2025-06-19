@@ -14,5 +14,5 @@ add_executable(Operators_two Day_two/Operators_two.c)
 add_executable(Operator_three Day_three/Operator_three.c)
 add_executable(controller_one Day_three/controller_one.c)
 add_executable(controller_two Day_three/controller_two.c)
-
 add_executable(controller_three Day_four/controller_three.c)
+add_executable(controller_four Day_four/controller_four.c)
