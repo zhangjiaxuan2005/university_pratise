@@ -238,6 +238,72 @@ build controller_one.exe: CXX_EXECUTABLE_LINKER__controller_one_Debug CMakeFiles
   TARGET_IMPLIB = libcontroller_one.dll.a
   TARGET_PDB = controller_one.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target controller_two
+
+
+#############################################
+# Order-only phony target for controller_two
+
+build cmake_object_order_depends_target_controller_two: phony || .
+
+build CMakeFiles/controller_two.dir/Day_three/controller_two.cpp.obj: CXX_COMPILER__controller_two_unscanned_Debug E$:/projects/cpp/untitled/Day_three/controller_two.cpp || cmake_object_order_depends_target_controller_two
+  DEP_FILE = CMakeFiles\controller_two.dir\Day_three\controller_two.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\controller_two.dir
+  OBJECT_FILE_DIR = CMakeFiles\controller_two.dir\Day_three
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target controller_two
+
+
+#############################################
+# Link the executable controller_two.exe
+
+build controller_two.exe: CXX_EXECUTABLE_LINKER__controller_two_Debug CMakeFiles/controller_two.dir/Day_three/controller_two.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\controller_two.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = controller_two.exe
+  TARGET_IMPLIB = libcontroller_two.dll.a
+  TARGET_PDB = controller_two.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target controller_three
+
+
+#############################################
+# Order-only phony target for controller_three
+
+build cmake_object_order_depends_target_controller_three: phony || .
+
+build CMakeFiles/controller_three.dir/Day_three/controller_three.cpp.obj: CXX_COMPILER__controller_three_unscanned_Debug E$:/projects/cpp/untitled/Day_three/controller_three.cpp || cmake_object_order_depends_target_controller_three
+  DEP_FILE = CMakeFiles\controller_three.dir\Day_three\controller_three.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\controller_three.dir
+  OBJECT_FILE_DIR = CMakeFiles\controller_three.dir\Day_three
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target controller_three
+
+
+#############################################
+# Link the executable controller_three.exe
+
+build controller_three.exe: CXX_EXECUTABLE_LINKER__controller_three_Debug CMakeFiles/controller_three.dir/Day_three/controller_three.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\controller_three.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = controller_three.exe
+  TARGET_IMPLIB = libcontroller_three.dll.a
+  TARGET_PDB = controller_three.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -272,6 +338,10 @@ build constant: phony constant.exe
 
 build controller_one: phony controller_one.exe
 
+build controller_three: phony controller_three.exe
+
+build controller_two: phony controller_two.exe
+
 build data_model: phony data_model.exe
 
 build operator: phony operator.exe
@@ -284,7 +354,7 @@ build operator: phony operator.exe
 #############################################
 # Folder: E:/projects/cpp/untitled/cmake-build-debug
 
-build all: phony Hello_world.exe constant.exe data_model.exe cin.exe operator.exe controller_one.exe
+build all: phony Hello_world.exe constant.exe data_model.exe cin.exe operator.exe controller_one.exe controller_two.exe controller_three.exe
 
 # =============================================================================
 # Built-in targets

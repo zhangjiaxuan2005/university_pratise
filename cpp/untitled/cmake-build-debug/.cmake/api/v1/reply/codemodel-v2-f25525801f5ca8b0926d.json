@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "untitled",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Hello_world::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Hello_world-Debug-cb9af307c6bd976f81f7.json",
+					"name" : "Hello_world",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cin-Debug-629ab46a8c2b76386b75.json",
+					"name" : "cin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "constant::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-constant-Debug-8bbcc1f45ef52fa820a3.json",
+					"name" : "constant",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_one::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_one-Debug-344f2417dc3cc5ea96de.json",
+					"name" : "controller_one",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_three::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_three-Debug-0df426493d61cf133e62.json",
+					"name" : "controller_three",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_two::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_two-Debug-dc3683cfc088646fedfa.json",
+					"name" : "controller_two",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "data_model::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-data_model-Debug-c5e36d2b01e5cac6e1b8.json",
+					"name" : "data_model",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "operator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-operator-Debug-ab4dede061f1a2a1682f.json",
+					"name" : "operator",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/projects/cpp/untitled/cmake-build-debug",
+		"source" : "E:/projects/cpp/untitled"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

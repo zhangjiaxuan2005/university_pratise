@@ -1,5 +1,5 @@
 # ninja log v6
-17	458	7720220556095777	build.ninja	8636d532e18518c4
+17	458	7720237122715937	build.ninja	8636d532e18518c4
 5	679	7720204863016555	CMakeFiles/constant.dir/Day_one/constant.cpp.obj	ce7b39f7386b6815
 680	808	7720204869756707	constant.exe	6bf56403572aa845
 50	698	7720204959971909	CMakeFiles/Hello_world.dir/Day_one/Hello_world.cpp.obj	d4640fa998860747
@@ -12,3 +12,7 @@
 678	800	7720216092536096	operator_one.exe	337f446ca6ba41f1
 20	580	7720220036241504	CMakeFiles/operator.dir/Day_two/operator.cpp.obj	8235663ce230185e
 580	703	7720220041845007	operator.exe	b72d7b831ee6d79e
+2	1050	7720342955145343	CMakeFiles/controller_three.dir/Day_three/controller_three.cpp.obj	5dec437513a2ab1e
+1050	1426	7720342965622893	controller_three.exe	27d2558ea13ea469
+5	722	7720343227809302	CMakeFiles/controller_three.dir/Day_three/controller_three.cpp.obj	5dec437513a2ab1e
+723	847	7720343234991314	controller_three.exe	27d2558ea13ea469
