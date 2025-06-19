@@ -1,0 +1,14 @@
+# ninja log v6
+17	458	7720215573700957	build.ninja	8636d532e18518c4
+5	679	7720204863016555	CMakeFiles/constant.dir/Day_one/constant.cpp.obj	ce7b39f7386b6815
+680	808	7720204869756707	constant.exe	6bf56403572aa845
+50	698	7720204959971909	CMakeFiles/Hello_world.dir/Day_one/Hello_world.cpp.obj	d4640fa998860747
+699	825	7720204966463536	Hello_world.exe	db443f8df295199
+673	818	7720211648354210	cin.exe	1c9a1e2925610a9e
+19	651	7720211558649700	CMakeFiles/data_model.dir/Day_two/data_model.cpp.obj	149d14ef7aaf840b
+652	763	7720211564968135	data_model.exe	29ee14c6c83ade2c
+19	672	7720211641819754	CMakeFiles/cin.dir/Day_two/cin.cpp.obj	b79feffa90898aeb
+21	568	7720215626470801	CMakeFiles/operator_one.dir/Day_two/operator_one.cpp.obj	a11822a815a917fe
+575	685	7720215632015870	operator_one.exe	337f446ca6ba41f1
+23	677	7720216085982562	CMakeFiles/operator_one.dir/Day_two/operator_one.cpp.obj	a11822a815a917fe
+678	800	7720216092536096	operator_one.exe	337f446ca6ba41f1
