@@ -106,6 +106,105 @@ build constant.exe: CXX_EXECUTABLE_LINKER__constant_Debug CMakeFiles/constant.di
   TARGET_IMPLIB = libconstant.dll.a
   TARGET_PDB = constant.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target data_model
+
+
+#############################################
+# Order-only phony target for data_model
+
+build cmake_object_order_depends_target_data_model: phony || .
+
+build CMakeFiles/data_model.dir/Day_two/data_model.cpp.obj: CXX_COMPILER__data_model_unscanned_Debug E$:/projects/cpp/untitled/Day_two/data_model.cpp || cmake_object_order_depends_target_data_model
+  DEP_FILE = CMakeFiles\data_model.dir\Day_two\data_model.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\data_model.dir
+  OBJECT_FILE_DIR = CMakeFiles\data_model.dir\Day_two
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target data_model
+
+
+#############################################
+# Link the executable data_model.exe
+
+build data_model.exe: CXX_EXECUTABLE_LINKER__data_model_Debug CMakeFiles/data_model.dir/Day_two/data_model.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\data_model.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = data_model.exe
+  TARGET_IMPLIB = libdata_model.dll.a
+  TARGET_PDB = data_model.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target cin
+
+
+#############################################
+# Order-only phony target for cin
+
+build cmake_object_order_depends_target_cin: phony || .
+
+build CMakeFiles/cin.dir/Day_two/cin.cpp.obj: CXX_COMPILER__cin_unscanned_Debug E$:/projects/cpp/untitled/Day_two/cin.cpp || cmake_object_order_depends_target_cin
+  DEP_FILE = CMakeFiles\cin.dir\Day_two\cin.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cin.dir
+  OBJECT_FILE_DIR = CMakeFiles\cin.dir\Day_two
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cin
+
+
+#############################################
+# Link the executable cin.exe
+
+build cin.exe: CXX_EXECUTABLE_LINKER__cin_Debug CMakeFiles/cin.dir/Day_two/cin.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\cin.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = cin.exe
+  TARGET_IMPLIB = libcin.dll.a
+  TARGET_PDB = cin.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target operator_one
+
+
+#############################################
+# Order-only phony target for operator_one
+
+build cmake_object_order_depends_target_operator_one: phony || .
+
+build CMakeFiles/operator_one.dir/Day_two/operator_one.cpp.obj: CXX_COMPILER__operator_one_unscanned_Debug E$:/projects/cpp/untitled/Day_two/operator_one.cpp || cmake_object_order_depends_target_operator_one
+  DEP_FILE = CMakeFiles\operator_one.dir\Day_two\operator_one.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\operator_one.dir
+  OBJECT_FILE_DIR = CMakeFiles\operator_one.dir\Day_two
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target operator_one
+
+
+#############################################
+# Link the executable operator_one.exe
+
+build operator_one.exe: CXX_EXECUTABLE_LINKER__operator_one_Debug CMakeFiles/operator_one.dir/Day_two/operator_one.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\operator_one.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = operator_one.exe
+  TARGET_IMPLIB = liboperator_one.dll.a
+  TARGET_PDB = operator_one.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -134,7 +233,13 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build Hello_world: phony Hello_world.exe
 
+build cin: phony cin.exe
+
 build constant: phony constant.exe
+
+build data_model: phony data_model.exe
+
+build operator_one: phony operator_one.exe
 
 # =============================================================================
 # Folder targets.
@@ -144,7 +249,7 @@ build constant: phony constant.exe
 #############################################
 # Folder: E:/projects/cpp/untitled/cmake-build-debug
 
-build all: phony Hello_world.exe constant.exe
+build all: phony Hello_world.exe constant.exe data_model.exe cin.exe operator_one.exe
 
 # =============================================================================
 # Built-in targets

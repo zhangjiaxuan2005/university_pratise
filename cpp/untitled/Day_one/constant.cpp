@@ -4,8 +4,12 @@
 
 #include <iostream>
 using namespace std;
+#define PI 3.14
 
 int main() {
-    cout<<1<<3.14<<'c'<<"zjx"<<endl;
+    const int a = 10;
+    cout << a << endl;
+    cout<<1<<" "<<3.14<<" "<<'c'<<" "<<"zjx"<<endl;
+    cout<<PI<<endl;
     return 0;
 }
