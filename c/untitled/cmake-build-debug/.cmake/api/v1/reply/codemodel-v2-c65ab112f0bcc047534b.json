@@ -1,0 +1,150 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "untitled",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Conversion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Conversion-Debug-20c3edb4590c4c26ada3.json",
+					"name" : "Conversion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DataBase::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DataBase-Debug-1f3b905473beb66f1a46.json",
+					"name" : "DataBase",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DataType::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DataType-Debug-eec9b847df4bd632bbdd.json",
+					"name" : "DataType",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Operator_three::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Operator_three-Debug-1f0e120bd4a060898f27.json",
+					"name" : "Operator_three",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Operators_one::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Operators_one-Debug-26d15b025d8ce47ec7a1.json",
+					"name" : "Operators_one",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Operators_two::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Operators_two-Debug-923451d77c55dab02edc.json",
+					"name" : "Operators_two",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Printf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Printf-Debug-c9f9d57fe49888d21383.json",
+					"name" : "Printf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Scanf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Scanf-Debug-744ebd1571b2f99813e6.json",
+					"name" : "Scanf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_one::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_one-Debug-7edd96d07aec37e61754.json",
+					"name" : "controller_one",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_three::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_three-Debug-ba18360a6ea4a0185bf2.json",
+					"name" : "controller_three",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_two::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_two-Debug-555cd53a2313b6e95209.json",
+					"name" : "controller_two",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/projects/c/untitled/cmake-build-debug",
+		"source" : "E:/projects/c/untitled"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -139,6 +139,270 @@ build DataBase.exe: C_EXECUTABLE_LINKER__DataBase_Debug CMakeFiles/DataBase.dir/
   TARGET_IMPLIB = libDataBase.dll.a
   TARGET_PDB = DataBase.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Scanf
+
+
+#############################################
+# Order-only phony target for Scanf
+
+build cmake_object_order_depends_target_Scanf: phony || .
+
+build CMakeFiles/Scanf.dir/Day_two/Scanf.c.obj: C_COMPILER__Scanf_unscanned_Debug E$:/projects/c/untitled/Day_two/Scanf.c || cmake_object_order_depends_target_Scanf
+  DEP_FILE = CMakeFiles\Scanf.dir\Day_two\Scanf.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Scanf.dir
+  OBJECT_FILE_DIR = CMakeFiles\Scanf.dir\Day_two
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Scanf
+
+
+#############################################
+# Link the executable Scanf.exe
+
+build Scanf.exe: C_EXECUTABLE_LINKER__Scanf_Debug CMakeFiles/Scanf.dir/Day_two/Scanf.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Scanf.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Scanf.exe
+  TARGET_IMPLIB = libScanf.dll.a
+  TARGET_PDB = Scanf.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Operators_one
+
+
+#############################################
+# Order-only phony target for Operators_one
+
+build cmake_object_order_depends_target_Operators_one: phony || .
+
+build CMakeFiles/Operators_one.dir/Day_two/Operators_one.c.obj: C_COMPILER__Operators_one_unscanned_Debug E$:/projects/c/untitled/Day_two/Operators_one.c || cmake_object_order_depends_target_Operators_one
+  DEP_FILE = CMakeFiles\Operators_one.dir\Day_two\Operators_one.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Operators_one.dir
+  OBJECT_FILE_DIR = CMakeFiles\Operators_one.dir\Day_two
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Operators_one
+
+
+#############################################
+# Link the executable Operators_one.exe
+
+build Operators_one.exe: C_EXECUTABLE_LINKER__Operators_one_Debug CMakeFiles/Operators_one.dir/Day_two/Operators_one.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Operators_one.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Operators_one.exe
+  TARGET_IMPLIB = libOperators_one.dll.a
+  TARGET_PDB = Operators_one.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Conversion
+
+
+#############################################
+# Order-only phony target for Conversion
+
+build cmake_object_order_depends_target_Conversion: phony || .
+
+build CMakeFiles/Conversion.dir/Day_two/Conversion.c.obj: C_COMPILER__Conversion_unscanned_Debug E$:/projects/c/untitled/Day_two/Conversion.c || cmake_object_order_depends_target_Conversion
+  DEP_FILE = CMakeFiles\Conversion.dir\Day_two\Conversion.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Conversion.dir
+  OBJECT_FILE_DIR = CMakeFiles\Conversion.dir\Day_two
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Conversion
+
+
+#############################################
+# Link the executable Conversion.exe
+
+build Conversion.exe: C_EXECUTABLE_LINKER__Conversion_Debug CMakeFiles/Conversion.dir/Day_two/Conversion.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Conversion.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Conversion.exe
+  TARGET_IMPLIB = libConversion.dll.a
+  TARGET_PDB = Conversion.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Operators_two
+
+
+#############################################
+# Order-only phony target for Operators_two
+
+build cmake_object_order_depends_target_Operators_two: phony || .
+
+build CMakeFiles/Operators_two.dir/Day_two/Operators_two.c.obj: C_COMPILER__Operators_two_unscanned_Debug E$:/projects/c/untitled/Day_two/Operators_two.c || cmake_object_order_depends_target_Operators_two
+  DEP_FILE = CMakeFiles\Operators_two.dir\Day_two\Operators_two.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Operators_two.dir
+  OBJECT_FILE_DIR = CMakeFiles\Operators_two.dir\Day_two
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Operators_two
+
+
+#############################################
+# Link the executable Operators_two.exe
+
+build Operators_two.exe: C_EXECUTABLE_LINKER__Operators_two_Debug CMakeFiles/Operators_two.dir/Day_two/Operators_two.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Operators_two.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Operators_two.exe
+  TARGET_IMPLIB = libOperators_two.dll.a
+  TARGET_PDB = Operators_two.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Operator_three
+
+
+#############################################
+# Order-only phony target for Operator_three
+
+build cmake_object_order_depends_target_Operator_three: phony || .
+
+build CMakeFiles/Operator_three.dir/Day_three/Operator_three.c.obj: C_COMPILER__Operator_three_unscanned_Debug E$:/projects/c/untitled/Day_three/Operator_three.c || cmake_object_order_depends_target_Operator_three
+  DEP_FILE = CMakeFiles\Operator_three.dir\Day_three\Operator_three.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Operator_three.dir
+  OBJECT_FILE_DIR = CMakeFiles\Operator_three.dir\Day_three
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Operator_three
+
+
+#############################################
+# Link the executable Operator_three.exe
+
+build Operator_three.exe: C_EXECUTABLE_LINKER__Operator_three_Debug CMakeFiles/Operator_three.dir/Day_three/Operator_three.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Operator_three.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Operator_three.exe
+  TARGET_IMPLIB = libOperator_three.dll.a
+  TARGET_PDB = Operator_three.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target controller_one
+
+
+#############################################
+# Order-only phony target for controller_one
+
+build cmake_object_order_depends_target_controller_one: phony || .
+
+build CMakeFiles/controller_one.dir/Day_three/controller_one.c.obj: C_COMPILER__controller_one_unscanned_Debug E$:/projects/c/untitled/Day_three/controller_one.c || cmake_object_order_depends_target_controller_one
+  DEP_FILE = CMakeFiles\controller_one.dir\Day_three\controller_one.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\controller_one.dir
+  OBJECT_FILE_DIR = CMakeFiles\controller_one.dir\Day_three
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target controller_one
+
+
+#############################################
+# Link the executable controller_one.exe
+
+build controller_one.exe: C_EXECUTABLE_LINKER__controller_one_Debug CMakeFiles/controller_one.dir/Day_three/controller_one.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\controller_one.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = controller_one.exe
+  TARGET_IMPLIB = libcontroller_one.dll.a
+  TARGET_PDB = controller_one.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target controller_two
+
+
+#############################################
+# Order-only phony target for controller_two
+
+build cmake_object_order_depends_target_controller_two: phony || .
+
+build CMakeFiles/controller_two.dir/Day_three/controller_two.c.obj: C_COMPILER__controller_two_unscanned_Debug E$:/projects/c/untitled/Day_three/controller_two.c || cmake_object_order_depends_target_controller_two
+  DEP_FILE = CMakeFiles\controller_two.dir\Day_three\controller_two.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\controller_two.dir
+  OBJECT_FILE_DIR = CMakeFiles\controller_two.dir\Day_three
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target controller_two
+
+
+#############################################
+# Link the executable controller_two.exe
+
+build controller_two.exe: C_EXECUTABLE_LINKER__controller_two_Debug CMakeFiles/controller_two.dir/Day_three/controller_two.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\controller_two.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = controller_two.exe
+  TARGET_IMPLIB = libcontroller_two.dll.a
+  TARGET_PDB = controller_two.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target controller_three
+
+
+#############################################
+# Order-only phony target for controller_three
+
+build cmake_object_order_depends_target_controller_three: phony || .
+
+build CMakeFiles/controller_three.dir/Day_four/controller_three.c.obj: C_COMPILER__controller_three_unscanned_Debug E$:/projects/c/untitled/Day_four/controller_three.c || cmake_object_order_depends_target_controller_three
+  DEP_FILE = CMakeFiles\controller_three.dir\Day_four\controller_three.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\controller_three.dir
+  OBJECT_FILE_DIR = CMakeFiles\controller_three.dir\Day_four
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target controller_three
+
+
+#############################################
+# Link the executable controller_three.exe
+
+build controller_three.exe: C_EXECUTABLE_LINKER__controller_three_Debug CMakeFiles/controller_three.dir/Day_four/controller_three.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\controller_three.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = controller_three.exe
+  TARGET_IMPLIB = libcontroller_three.dll.a
+  TARGET_PDB = controller_three.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -165,11 +429,27 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build Conversion: phony Conversion.exe
+
 build DataBase: phony DataBase.exe
 
 build DataType: phony DataType.exe
 
+build Operator_three: phony Operator_three.exe
+
+build Operators_one: phony Operators_one.exe
+
+build Operators_two: phony Operators_two.exe
+
 build Printf: phony Printf.exe
+
+build Scanf: phony Scanf.exe
+
+build controller_one: phony controller_one.exe
+
+build controller_three: phony controller_three.exe
+
+build controller_two: phony controller_two.exe
 
 # =============================================================================
 # Folder targets.
@@ -179,7 +459,7 @@ build Printf: phony Printf.exe
 #############################################
 # Folder: E:/projects/c/untitled/cmake-build-debug
 
-build all: phony Printf.exe DataType.exe DataBase.exe
+build all: phony Printf.exe DataType.exe DataBase.exe Scanf.exe Operators_one.exe Conversion.exe Operators_two.exe Operator_three.exe controller_one.exe controller_two.exe controller_three.exe
 
 # =============================================================================
 # Built-in targets

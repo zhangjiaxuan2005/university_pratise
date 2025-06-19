@@ -1,0 +1,16 @@
+//
+// Created by 17246 on 2025/6/19.
+//
+
+#include <stdio.h>
+int main() {
+    int a,b;
+    scanf("%d %d",&a,&b);
+    if (a>b) {
+        printf("%d\n", a);
+    }
+    else {
+        printf("%d\n", b);
+    }
+    return 0;
+}

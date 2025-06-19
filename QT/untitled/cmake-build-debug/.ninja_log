@@ -1,8 +1,0 @@
-# ninja log v6
-9	280	7679592515558080	untitled_autogen/timestamp	9539adfe0fb3db1d
-9	280	7679592515558080	E:/projects/QT/untitled/cmake-build-debug/untitled_autogen/mocs_compilation.cpp	9539adfe0fb3db1d
-283	465	7679592516337466	CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.obj	51a42b9805cafc55
-9	280	7679592515558080	untitled_autogen/mocs_compilation.cpp	9539adfe0fb3db1d
-9	280	7679592515558080	E:/projects/QT/untitled/cmake-build-debug/untitled_autogen/timestamp	9539adfe0fb3db1d
-286	6480	7679592516367541	CMakeFiles/untitled.dir/main.cpp.obj	cf456ad87f1c43e0
-6481	6856	7679592578318417	untitled.exe	a5ab001993c365c
