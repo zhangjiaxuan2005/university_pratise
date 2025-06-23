@@ -8,5 +8,7 @@ E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/controller_two.dir
 E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/controller_three.dir
 E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/controller_four.dir
 E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/controller_five.dir
+E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/array_one.dir
+E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/array_two.dir
 E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/rebuild_cache.dir

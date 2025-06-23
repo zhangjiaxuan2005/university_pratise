@@ -1,7 +1,7 @@
 # ninja log v6
-17	458	7720358536634233	build.ninja	8636d532e18518c4
+17	458	7720362184642888	build.ninja	8636d532e18518c4
 5	679	7720204863016555	CMakeFiles/constant.dir/Day_one/constant.cpp.obj	ce7b39f7386b6815
-369	440	7720355121263929	controller_five.exe	369e330b92d5a6ed
+527	947	7720361962080142	controller_five.exe	369e330b92d5a6ed
 680	808	7720204869756707	constant.exe	6bf56403572aa845
 50	698	7720204959971909	CMakeFiles/Hello_world.dir/Day_one/Hello_world.cpp.obj	d4640fa998860747
 699	825	7720204966463536	Hello_world.exe	db443f8df295199
@@ -16,4 +16,10 @@
 723	847	7720343234991314	controller_three.exe	27d2558ea13ea469
 5	722	7720343227809302	CMakeFiles/controller_three.dir/Day_three/controller_three.cpp.obj	5dec437513a2ab1e
 365	443	7720348616907837	controller_four.exe	10acc19c7b448a8c
-21	369	7720355117775842	CMakeFiles/controller_five.dir/Day_three/controller_five.cpp.obj	f166cade7cd0c2af
+3	527	7720361956838491	CMakeFiles/controller_five.dir/Day_three/controller_five.cpp.obj	280422d3589b33b4
+1	339	7720362750067308	CMakeFiles/array_two.dir/Day_four/array_two.cpp.obj	cddeb011582c8f8f
+340	407	7720362753449082	array_two.exe	9f81bfdf34050059
+18	369	7720364496849461	CMakeFiles/array_two.dir/Day_four/array_two.cpp.obj	cddeb011582c8f8f
+369	443	7720364500361868	array_two.exe	9f81bfdf34050059
+19	368	7720364692551543	CMakeFiles/array_two.dir/Day_four/array_two.cpp.obj	cddeb011582c8f8f
+368	437	7720364696037223	array_two.exe	9f81bfdf34050059
