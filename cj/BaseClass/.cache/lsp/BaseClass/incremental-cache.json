@@ -1,14 +1,5 @@
 {
-  "packageInformation": {
-    "BaseClass": {
-      "rootPackageName": "BaseClass",
-      "fileNameHash": "-5618480165233123260",
-      "timeStamp": 1750665445,
-      "buildFlag": true,
-      "exeName": "main",
-      "hasSubPkgs": false
-    }
-  },
+  "packageInformation": {},
   "jsonHash": "5688817639303933753",
   "rootPackageName": "BaseClass"
 }
