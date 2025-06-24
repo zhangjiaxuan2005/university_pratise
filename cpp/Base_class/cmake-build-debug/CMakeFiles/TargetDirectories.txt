@@ -10,5 +10,17 @@ E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/controller_four.dir
 E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/controller_five.dir
 E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/array_one.dir
 E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/array_two.dir
+E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/pointer_one.dir
+E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/pointer_two.dir
+E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/pointer_three.dir
+E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/pointer_four.dir
+E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/pointer_five.dir
+E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/pointer_array.dir
+E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/struct_one.dir
+E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/struct_two.dir
+E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/struct_three.dir
+E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/func_one.dir
+E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/func_two.dir
+E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/class_one.dir
 E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/projects/cpp/Base_class/cmake-build-debug/CMakeFiles/rebuild_cache.dir
