@@ -54,8 +54,6 @@ build CMakeFiles/Printf.dir/Day_one/Printf.c.obj: C_COMPILER__Printf_unscanned_D
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Printf.dir
   OBJECT_FILE_DIR = CMakeFiles\Printf.dir\Day_one
-  TARGET_COMPILE_PDB = CMakeFiles\Printf.dir\
-  TARGET_PDB = Printf.pdb
 
 
 # =============================================================================
@@ -71,10 +69,9 @@ build Printf.exe: C_EXECUTABLE_LINKER__Printf_Debug CMakeFiles/Printf.dir/Day_on
   OBJECT_DIR = CMakeFiles\Printf.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\Printf.dir\
   TARGET_FILE = Printf.exe
   TARGET_IMPLIB = libPrintf.dll.a
-  TARGET_PDB = Printf.pdb
+  TARGET_PDB = Printf.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target DataType
@@ -90,8 +87,6 @@ build CMakeFiles/DataType.dir/Day_one/DataType.c.obj: C_COMPILER__DataType_unsca
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\DataType.dir
   OBJECT_FILE_DIR = CMakeFiles\DataType.dir\Day_one
-  TARGET_COMPILE_PDB = CMakeFiles\DataType.dir\
-  TARGET_PDB = DataType.pdb
 
 
 # =============================================================================
@@ -107,10 +102,9 @@ build DataType.exe: C_EXECUTABLE_LINKER__DataType_Debug CMakeFiles/DataType.dir/
   OBJECT_DIR = CMakeFiles\DataType.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\DataType.dir\
   TARGET_FILE = DataType.exe
   TARGET_IMPLIB = libDataType.dll.a
-  TARGET_PDB = DataType.pdb
+  TARGET_PDB = DataType.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target DataBase
@@ -126,8 +120,6 @@ build CMakeFiles/DataBase.dir/Day_one/DataBase.c.obj: C_COMPILER__DataBase_unsca
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\DataBase.dir
   OBJECT_FILE_DIR = CMakeFiles\DataBase.dir\Day_one
-  TARGET_COMPILE_PDB = CMakeFiles\DataBase.dir\
-  TARGET_PDB = DataBase.pdb
 
 
 # =============================================================================
@@ -143,10 +135,9 @@ build DataBase.exe: C_EXECUTABLE_LINKER__DataBase_Debug CMakeFiles/DataBase.dir/
   OBJECT_DIR = CMakeFiles\DataBase.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\DataBase.dir\
   TARGET_FILE = DataBase.exe
   TARGET_IMPLIB = libDataBase.dll.a
-  TARGET_PDB = DataBase.pdb
+  TARGET_PDB = DataBase.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Scanf
@@ -157,13 +148,11 @@ build DataBase.exe: C_EXECUTABLE_LINKER__DataBase_Debug CMakeFiles/DataBase.dir/
 
 build cmake_object_order_depends_target_Scanf: phony || .
 
-build CMakeFiles/Scanf.dir/Day_two/Scanf.c.obj: C_COMPILER__Scanf_unscanned_Debug E$:/projects/c/Base_class/Day_two/Scanf.c || cmake_object_order_depends_target_Scanf
-  DEP_FILE = CMakeFiles\Scanf.dir\Day_two\Scanf.c.obj.d
+build CMakeFiles/Scanf.dir/Day_one/Scanf.c.obj: C_COMPILER__Scanf_unscanned_Debug E$:/projects/c/Base_class/Day_one/Scanf.c || cmake_object_order_depends_target_Scanf
+  DEP_FILE = CMakeFiles\Scanf.dir\Day_one\Scanf.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Scanf.dir
-  OBJECT_FILE_DIR = CMakeFiles\Scanf.dir\Day_two
-  TARGET_COMPILE_PDB = CMakeFiles\Scanf.dir\
-  TARGET_PDB = Scanf.pdb
+  OBJECT_FILE_DIR = CMakeFiles\Scanf.dir\Day_one
 
 
 # =============================================================================
@@ -173,16 +162,15 @@ build CMakeFiles/Scanf.dir/Day_two/Scanf.c.obj: C_COMPILER__Scanf_unscanned_Debu
 #############################################
 # Link the executable Scanf.exe
 
-build Scanf.exe: C_EXECUTABLE_LINKER__Scanf_Debug CMakeFiles/Scanf.dir/Day_two/Scanf.c.obj
+build Scanf.exe: C_EXECUTABLE_LINKER__Scanf_Debug CMakeFiles/Scanf.dir/Day_one/Scanf.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Scanf.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\Scanf.dir\
   TARGET_FILE = Scanf.exe
   TARGET_IMPLIB = libScanf.dll.a
-  TARGET_PDB = Scanf.pdb
+  TARGET_PDB = Scanf.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Operators_one
@@ -198,8 +186,6 @@ build CMakeFiles/Operators_one.dir/Day_two/Operators_one.c.obj: C_COMPILER__Oper
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Operators_one.dir
   OBJECT_FILE_DIR = CMakeFiles\Operators_one.dir\Day_two
-  TARGET_COMPILE_PDB = CMakeFiles\Operators_one.dir\
-  TARGET_PDB = Operators_one.pdb
 
 
 # =============================================================================
@@ -215,10 +201,9 @@ build Operators_one.exe: C_EXECUTABLE_LINKER__Operators_one_Debug CMakeFiles/Ope
   OBJECT_DIR = CMakeFiles\Operators_one.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\Operators_one.dir\
   TARGET_FILE = Operators_one.exe
   TARGET_IMPLIB = libOperators_one.dll.a
-  TARGET_PDB = Operators_one.pdb
+  TARGET_PDB = Operators_one.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Conversion
@@ -229,13 +214,11 @@ build Operators_one.exe: C_EXECUTABLE_LINKER__Operators_one_Debug CMakeFiles/Ope
 
 build cmake_object_order_depends_target_Conversion: phony || .
 
-build CMakeFiles/Conversion.dir/Day_two/Conversion.c.obj: C_COMPILER__Conversion_unscanned_Debug E$:/projects/c/Base_class/Day_two/Conversion.c || cmake_object_order_depends_target_Conversion
-  DEP_FILE = CMakeFiles\Conversion.dir\Day_two\Conversion.c.obj.d
+build CMakeFiles/Conversion.dir/Day_one/Conversion.c.obj: C_COMPILER__Conversion_unscanned_Debug E$:/projects/c/Base_class/Day_one/Conversion.c || cmake_object_order_depends_target_Conversion
+  DEP_FILE = CMakeFiles\Conversion.dir\Day_one\Conversion.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Conversion.dir
-  OBJECT_FILE_DIR = CMakeFiles\Conversion.dir\Day_two
-  TARGET_COMPILE_PDB = CMakeFiles\Conversion.dir\
-  TARGET_PDB = Conversion.pdb
+  OBJECT_FILE_DIR = CMakeFiles\Conversion.dir\Day_one
 
 
 # =============================================================================
@@ -245,16 +228,15 @@ build CMakeFiles/Conversion.dir/Day_two/Conversion.c.obj: C_COMPILER__Conversion
 #############################################
 # Link the executable Conversion.exe
 
-build Conversion.exe: C_EXECUTABLE_LINKER__Conversion_Debug CMakeFiles/Conversion.dir/Day_two/Conversion.c.obj
+build Conversion.exe: C_EXECUTABLE_LINKER__Conversion_Debug CMakeFiles/Conversion.dir/Day_one/Conversion.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Conversion.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\Conversion.dir\
   TARGET_FILE = Conversion.exe
   TARGET_IMPLIB = libConversion.dll.a
-  TARGET_PDB = Conversion.pdb
+  TARGET_PDB = Conversion.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Operators_two
@@ -270,8 +252,6 @@ build CMakeFiles/Operators_two.dir/Day_two/Operators_two.c.obj: C_COMPILER__Oper
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Operators_two.dir
   OBJECT_FILE_DIR = CMakeFiles\Operators_two.dir\Day_two
-  TARGET_COMPILE_PDB = CMakeFiles\Operators_two.dir\
-  TARGET_PDB = Operators_two.pdb
 
 
 # =============================================================================
@@ -287,10 +267,9 @@ build Operators_two.exe: C_EXECUTABLE_LINKER__Operators_two_Debug CMakeFiles/Ope
   OBJECT_DIR = CMakeFiles\Operators_two.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\Operators_two.dir\
   TARGET_FILE = Operators_two.exe
   TARGET_IMPLIB = libOperators_two.dll.a
-  TARGET_PDB = Operators_two.pdb
+  TARGET_PDB = Operators_two.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Operator_three
@@ -301,13 +280,11 @@ build Operators_two.exe: C_EXECUTABLE_LINKER__Operators_two_Debug CMakeFiles/Ope
 
 build cmake_object_order_depends_target_Operator_three: phony || .
 
-build CMakeFiles/Operator_three.dir/Day_three/Operator_three.c.obj: C_COMPILER__Operator_three_unscanned_Debug E$:/projects/c/Base_class/Day_three/Operator_three.c || cmake_object_order_depends_target_Operator_three
-  DEP_FILE = CMakeFiles\Operator_three.dir\Day_three\Operator_three.c.obj.d
+build CMakeFiles/Operator_three.dir/Day_two/Operator_three.c.obj: C_COMPILER__Operator_three_unscanned_Debug E$:/projects/c/Base_class/Day_two/Operator_three.c || cmake_object_order_depends_target_Operator_three
+  DEP_FILE = CMakeFiles\Operator_three.dir\Day_two\Operator_three.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Operator_three.dir
-  OBJECT_FILE_DIR = CMakeFiles\Operator_three.dir\Day_three
-  TARGET_COMPILE_PDB = CMakeFiles\Operator_three.dir\
-  TARGET_PDB = Operator_three.pdb
+  OBJECT_FILE_DIR = CMakeFiles\Operator_three.dir\Day_two
 
 
 # =============================================================================
@@ -317,16 +294,15 @@ build CMakeFiles/Operator_three.dir/Day_three/Operator_three.c.obj: C_COMPILER__
 #############################################
 # Link the executable Operator_three.exe
 
-build Operator_three.exe: C_EXECUTABLE_LINKER__Operator_three_Debug CMakeFiles/Operator_three.dir/Day_three/Operator_three.c.obj
+build Operator_three.exe: C_EXECUTABLE_LINKER__Operator_three_Debug CMakeFiles/Operator_three.dir/Day_two/Operator_three.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Operator_three.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\Operator_three.dir\
   TARGET_FILE = Operator_three.exe
   TARGET_IMPLIB = libOperator_three.dll.a
-  TARGET_PDB = Operator_three.pdb
+  TARGET_PDB = Operator_three.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target controller_one
@@ -342,8 +318,6 @@ build CMakeFiles/controller_one.dir/Day_three/controller_one.c.obj: C_COMPILER__
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\controller_one.dir
   OBJECT_FILE_DIR = CMakeFiles\controller_one.dir\Day_three
-  TARGET_COMPILE_PDB = CMakeFiles\controller_one.dir\
-  TARGET_PDB = controller_one.pdb
 
 
 # =============================================================================
@@ -359,10 +333,9 @@ build controller_one.exe: C_EXECUTABLE_LINKER__controller_one_Debug CMakeFiles/c
   OBJECT_DIR = CMakeFiles\controller_one.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\controller_one.dir\
   TARGET_FILE = controller_one.exe
   TARGET_IMPLIB = libcontroller_one.dll.a
-  TARGET_PDB = controller_one.pdb
+  TARGET_PDB = controller_one.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target controller_two
@@ -378,8 +351,6 @@ build CMakeFiles/controller_two.dir/Day_three/controller_two.c.obj: C_COMPILER__
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\controller_two.dir
   OBJECT_FILE_DIR = CMakeFiles\controller_two.dir\Day_three
-  TARGET_COMPILE_PDB = CMakeFiles\controller_two.dir\
-  TARGET_PDB = controller_two.pdb
 
 
 # =============================================================================
@@ -395,10 +366,9 @@ build controller_two.exe: C_EXECUTABLE_LINKER__controller_two_Debug CMakeFiles/c
   OBJECT_DIR = CMakeFiles\controller_two.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\controller_two.dir\
   TARGET_FILE = controller_two.exe
   TARGET_IMPLIB = libcontroller_two.dll.a
-  TARGET_PDB = controller_two.pdb
+  TARGET_PDB = controller_two.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target controller_three
@@ -409,13 +379,11 @@ build controller_two.exe: C_EXECUTABLE_LINKER__controller_two_Debug CMakeFiles/c
 
 build cmake_object_order_depends_target_controller_three: phony || .
 
-build CMakeFiles/controller_three.dir/Day_four/controller_three.c.obj: C_COMPILER__controller_three_unscanned_Debug E$:/projects/c/Base_class/Day_four/controller_three.c || cmake_object_order_depends_target_controller_three
-  DEP_FILE = CMakeFiles\controller_three.dir\Day_four\controller_three.c.obj.d
+build CMakeFiles/controller_three.dir/Day_three/controller_three.c.obj: C_COMPILER__controller_three_unscanned_Debug E$:/projects/c/Base_class/Day_three/controller_three.c || cmake_object_order_depends_target_controller_three
+  DEP_FILE = CMakeFiles\controller_three.dir\Day_three\controller_three.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\controller_three.dir
-  OBJECT_FILE_DIR = CMakeFiles\controller_three.dir\Day_four
-  TARGET_COMPILE_PDB = CMakeFiles\controller_three.dir\
-  TARGET_PDB = controller_three.pdb
+  OBJECT_FILE_DIR = CMakeFiles\controller_three.dir\Day_three
 
 
 # =============================================================================
@@ -425,16 +393,15 @@ build CMakeFiles/controller_three.dir/Day_four/controller_three.c.obj: C_COMPILE
 #############################################
 # Link the executable controller_three.exe
 
-build controller_three.exe: C_EXECUTABLE_LINKER__controller_three_Debug CMakeFiles/controller_three.dir/Day_four/controller_three.c.obj
+build controller_three.exe: C_EXECUTABLE_LINKER__controller_three_Debug CMakeFiles/controller_three.dir/Day_three/controller_three.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\controller_three.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\controller_three.dir\
   TARGET_FILE = controller_three.exe
   TARGET_IMPLIB = libcontroller_three.dll.a
-  TARGET_PDB = controller_three.pdb
+  TARGET_PDB = controller_three.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target controller_four
@@ -445,13 +412,11 @@ build controller_three.exe: C_EXECUTABLE_LINKER__controller_three_Debug CMakeFil
 
 build cmake_object_order_depends_target_controller_four: phony || .
 
-build CMakeFiles/controller_four.dir/Day_four/controller_four.c.obj: C_COMPILER__controller_four_unscanned_Debug E$:/projects/c/Base_class/Day_four/controller_four.c || cmake_object_order_depends_target_controller_four
-  DEP_FILE = CMakeFiles\controller_four.dir\Day_four\controller_four.c.obj.d
+build CMakeFiles/controller_four.dir/Day_three/controller_four.c.obj: C_COMPILER__controller_four_unscanned_Debug E$:/projects/c/Base_class/Day_three/controller_four.c || cmake_object_order_depends_target_controller_four
+  DEP_FILE = CMakeFiles\controller_four.dir\Day_three\controller_four.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\controller_four.dir
-  OBJECT_FILE_DIR = CMakeFiles\controller_four.dir\Day_four
-  TARGET_COMPILE_PDB = CMakeFiles\controller_four.dir\
-  TARGET_PDB = controller_four.pdb
+  OBJECT_FILE_DIR = CMakeFiles\controller_four.dir\Day_three
 
 
 # =============================================================================
@@ -461,16 +426,15 @@ build CMakeFiles/controller_four.dir/Day_four/controller_four.c.obj: C_COMPILER_
 #############################################
 # Link the executable controller_four.exe
 
-build controller_four.exe: C_EXECUTABLE_LINKER__controller_four_Debug CMakeFiles/controller_four.dir/Day_four/controller_four.c.obj
+build controller_four.exe: C_EXECUTABLE_LINKER__controller_four_Debug CMakeFiles/controller_four.dir/Day_three/controller_four.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\controller_four.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\controller_four.dir\
   TARGET_FILE = controller_four.exe
   TARGET_IMPLIB = libcontroller_four.dll.a
-  TARGET_PDB = controller_four.pdb
+  TARGET_PDB = controller_four.exe.dbg
 
 
 #############################################
@@ -539,14 +503,14 @@ build all: phony Printf.exe DataType.exe DataBase.exe Scanf.exe Operators_one.ex
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.31.6/CMakeCCompiler.cmake CMakeFiles/3.31.6/CMakeRCCompiler.cmake CMakeFiles/3.31.6/CMakeSystem.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeCCompiler.cmake.in D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeCInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeCompilerIdDetection.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerSupport.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineRCCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeFindBinUtils.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeGenericSystem.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeParseImplicitIncludeInfo.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeParseImplicitLinkInfo.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeParseLibraryArchitecture.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeRCCompiler.cmake.in D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeRCInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeSystem.cmake.in D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeTestCompilerCommon.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeTestRCCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/ADSP-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/ARMCC-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/ARMClang-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/AppleClang-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/Borland-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/Bruce-C-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompilerInternal.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/Compaq-C-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/Cray-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/CrayClang-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/Embarcadero-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/Fujitsu-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/GHS-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/GNU-C-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/GNU-C.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/GNU-FindBinUtils.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/HP-C-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/IAR-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/Intel-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/LCC-C-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/MSVC-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/NVHPC-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/NVIDIA-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/OrangeC-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/PGI-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/PathScale-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/SCO-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/SDCC-C-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/SunPro-C-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/TI-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/TIClang-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/Tasking-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/Watcom-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/XL-C-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/XLClang-C-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/zOS-C-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Internal/FeatureTesting.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Linker/GNU-C.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Linker/GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-C.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Windows-GNU-C.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Windows-Initialize.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Windows-windres.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Windows.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake E$:/projects/c/Base_class/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.31.6/CMakeCCompiler.cmake CMakeFiles/3.31.6/CMakeRCCompiler.cmake CMakeFiles/3.31.6/CMakeSystem.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeCInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeGenericSystem.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeRCInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/GNU-C.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Linker/GNU-C.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Linker/GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-C.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Windows-GNU-C.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Windows-Initialize.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Windows-windres.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Windows.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake E$:/projects/c/Base_class/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.31.6/CMakeCCompiler.cmake CMakeFiles/3.31.6/CMakeRCCompiler.cmake CMakeFiles/3.31.6/CMakeSystem.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeCCompiler.cmake.in D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeCInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeCompilerIdDetection.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerSupport.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineRCCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeFindBinUtils.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeGenericSystem.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeParseImplicitIncludeInfo.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeParseImplicitLinkInfo.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeParseLibraryArchitecture.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeRCCompiler.cmake.in D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeRCInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeSystem.cmake.in D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeTestCompilerCommon.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeTestRCCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/ADSP-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/ARMCC-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/ARMClang-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/AppleClang-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/Borland-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/Bruce-C-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompilerInternal.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/Compaq-C-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/Cray-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/CrayClang-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/Embarcadero-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/Fujitsu-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/GHS-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/GNU-C-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/GNU-C.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/GNU-FindBinUtils.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/HP-C-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/IAR-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/Intel-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/LCC-C-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/MSVC-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/NVHPC-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/NVIDIA-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/OrangeC-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/PGI-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/PathScale-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/SCO-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/SDCC-C-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/SunPro-C-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/TI-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/TIClang-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/Tasking-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/Watcom-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/XL-C-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/XLClang-C-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/zOS-C-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Internal/FeatureTesting.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Linker/GNU-C.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Linker/GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-C.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Windows-GNU-C.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Windows-Initialize.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Windows-windres.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Windows.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake E$:/projects/c/Base_class/CMakeLists.txt: phony
+build CMakeCache.txt CMakeFiles/3.31.6/CMakeCCompiler.cmake CMakeFiles/3.31.6/CMakeRCCompiler.cmake CMakeFiles/3.31.6/CMakeSystem.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeCInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeGenericSystem.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeRCInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/GNU-C.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Compiler/GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Linker/GNU-C.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Linker/GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-C.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Windows-GNU-C.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Windows-Initialize.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Windows-windres.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Windows.cmake D$:/Program$ Files/JetBrains/CLion$ 2025.1.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake E$:/projects/c/Base_class/CMakeLists.txt: phony
 
 
 #############################################

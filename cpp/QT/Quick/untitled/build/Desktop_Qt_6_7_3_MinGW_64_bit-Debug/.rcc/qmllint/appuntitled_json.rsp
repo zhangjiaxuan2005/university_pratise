@@ -1,0 +1,12 @@
+--bare
+-I
+E:/projects/cpp/QT/Quick/untitled/build/Desktop_Qt_6_7_3_MinGW_64_bit-Debug
+-I
+D:/Program_Files/Qt/6.7.3/mingw_64/qml
+--resource
+E:/projects/cpp/QT/Quick/untitled/build/Desktop_Qt_6_7_3_MinGW_64_bit-Debug/.qt/rcc/qmake_untitled.qrc
+--resource
+E:/projects/cpp/QT/Quick/untitled/build/Desktop_Qt_6_7_3_MinGW_64_bit-Debug/.qt/rcc/appuntitled_raw_qml_0.qrc
+E:/projects/cpp/QT/Quick/untitled/Main.qml
+--json
+E:/projects/cpp/QT/Quick/untitled/build/Desktop_Qt_6_7_3_MinGW_64_bit-Debug/appuntitled_qmllint.json
