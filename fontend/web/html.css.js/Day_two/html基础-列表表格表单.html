@@ -6,7 +6,50 @@
         <title>注册信息</title>
     </head>
     <body>
+        <ul>
+            <li>
+                百度
+            </li>
+            <li>
+                网易
+            </li>
+            <li>
+                腾讯
+            </li>
+        </ul>
         <h1>注册信息</h1>
         <h2>个人信息</h2>
+        <label for="name">姓名：</label><input type="text" id="name" placeholder="请输入姓名" >
+        <br>
+        <label for="password">密码：</label><input type="password" id="password" placeholder="请输入密码">
+        <br>
+        <label for="passwordagain">确认密码：</label><input type="password" id="passwordagain" placeholder="请再次输入密码">
+        <br>
+        性别：<input type="radio" name="gender"><label for="gender">男</label>
+        <input type="radio" name="gender"><label for="gender">女</label>
+        <br>
+        <label for="city">居住城市：</label>
+        <select name="city" id="city">
+            <option value="北京">北京</option>
+            <option value="上海">上海</option>
+            <option value="广州">广州</option>
+        </select>
+        <br>
+        <h2>教育经历</h2>
+        <label for="highest_degree">最高学历：</label>
+        <select name="highest_degree" id="highest_degree">
+            <option value="bs">博士</option>
+            <option value="ms">硕士</option>
+            <option value="phd">学士</option>
+        </select>
+        <br>
+        <p>
+            <input type="checkbox" id="agree" name="agree">
+            <label for="agree">我同意注册协议</label>
+        </p>
+        <p>
+            <button type="submit">注册</button>
+        </p>
+        
     </body>
 </html>
