@@ -24,7 +24,15 @@ struct indexPages {
             message:"Hello HarmonyOS"
           })
         })
+      zjx_input()
     }
     .width("100%")
+  }
+}
+
+@Component
+struct zjx_input {
+  build() {
+    TextInput({placeholder:"你好"})
   }
 }
